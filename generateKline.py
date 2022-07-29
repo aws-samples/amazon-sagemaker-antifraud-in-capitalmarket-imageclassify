@@ -9,7 +9,7 @@ import csv
 
 symbollist = ['COIN']
 for symbol in symbollist:
-    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol='+symbol +'&interval=5min&apikey=Y14MIZ3T2PU4BXK1'
+    url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol='+symbol +'&interval=5min&apikey=xxx'
     r =requests.get(url)
     r_dict = r.json()
     
